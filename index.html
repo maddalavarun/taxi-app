@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/style.css">
+    <title>IndCabs</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="title-wrap">
+            <img src="./static/assets/logo.png" class="img" alt="logo">
+            <p class="title">IndCabs</p>
+        </div>
+        <ion-icon name="menu-outline" class="menu" id="open"></ion-icon>
+        <ul class="navbar-list" id='menu'>
+            <ion-icon name="close-outline" class="close" id="close"></ion-icon>
+            <a href="/">
+                <li class="link">Home</li>
+            </a>
+            <a href="/#about">
+                <li class="link">About</li>
+            </a>
+            <a class="disable" href="">
+                <li class="link">Faq</li>
+            </a>
+            <a class="disable" href="">
+                <li class="link">Contact</li>
+            </a>
+        </ul>
+    </div>
+    <!-- home page -->
+    <div class="l-page">
+        <div class="main">
+            <div class="main-title">
+                The future evolution of cabs begins with us
+            </div>
+            <div class="main-des">
+                The first indian app that helps to BID drivers to save money and have great experience with best
+                customer support
+            </div>
+            <button disabled class=" disable btn">
+                <span class="btn-text">
+                    Download
+                </span>
+            </button>
+        </div>
+        <div class="main-h">
+            <div class="img-cont">
+                <img src="./static/assets/main 1.png" class="img" alt="">
+                <div class="mapmarker">
+                    <div class="box">
+                        <ion-icon name="star" class="star"></ion-icon>
+                    </div>
+                    <div class="tri"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sec 2 -->
+    <div class="section" id="about">
+        <div class="sec1">
+            <ul class="list">
+                <div class="title">Problems in E-cab apps</div>
+                <li class="r item">High commision rate <span class="count">15% ~ 25%</span></li>
+                <li class="r item">Least customer care services</li>
+                <li class="w item">Less driver income </li>
+                <li class="r item">High travelling charges </li>
+            </ul>
+        </div>
+        <div class="sec1">
+            <ul class="list">
+                <div class="title">What we do </div>
+                <li class="b item">No commision <span class="count">0%</span></li>
+                <li class="w item">Max driver income</li>
+                <li class="w item">Less travelling charges </li>
+                <li class="b item">E-Bidding system to reduce cost</li>
+                <li class="b item">Enhanced Customer support</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- sec3 -->
+    <div class="bg-n">
+        <div class="title">Booking a Cab in IndCabs involves only in 3 steps</div>
+        <div class="card-wrap">
+            <div class="card">
+                <ion-icon name="location-outline" class="ico"></ion-icon>
+                <p class="des">
+                    Just enter the location which you wanna go in the search bar
+                </p>
+            </div>
+            <div class="card">
+                <ion-icon name="cash-outline" class="ico"></ion-icon>
+                <p class="des">
+                    Bid / Select the Price point according to your needs from the search results and confirm your
+                    booking
+                </p>
+            </div>
+            <div class="card">
+                <ion-icon name="checkmark-done-outline" class="ico"></ion-icon>
+                <p class="des">
+                    After selecting the Price point accept the request from the driver and thats it.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- sec4 -->
+    <div class="section4">
+        <div class="title">IndCab is in development Stage</div>
+        <div class="des">Please visit us after some time</div>
+    </div>
+
+    <!-- footer us -->
+    <div class="footer">
+        <div class="sec">
+            <div class="title">
+                <p class="t">
+                    IndCabs
+                </p>
+                <p class="d">
+                    Travel with satisfaction
+                </p>
+            </div>
+            <ul class="links">
+                <a href="/">
+                    <li class="link">Home</li>
+                </a>
+                <a href="/#about">
+                    <li class="link">About</li>
+                </a>
+                <a class="disable" href="">
+                    <li class="link">Faq</li>
+                </a>
+                <a class="disable" href="">
+                    <li class="link">Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="sec" style="padding: 10px 0;background: white;">
+            <div class="cp">
+                ©Copyright 2022 - IndCabs - All rights reserved || Created by sidhardh && hazrath
+
+            </div>
+        </div>
+    </div>
+    <script>
+      document.getElementById('open').addEventListener('click', () => {
+        document.getElementById('menu').style.transform = 'translateY(0vh)'
+      })
+      document.getElementById('close').addEventListener('click', () => {
+        document.getElementById('menu').style.transform = 'translateY(-80vh)'
+      })
+      
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
